@@ -1381,8 +1381,9 @@ msgid ""
 "it empty. You can repeat your command with --allow-empty, or you can\n"
 "remove the commit entirely with \"git reset HEAD^\".\n"
 msgstr ""
-"您要求修补最近的提交，但这么做会造成空提交。您可重复您的命令并带上\n"
-"--allow-empty 选项，或者您可以整个删除该提交用 \"git reset HEAD^\"。\n"
+"您对上次提交的修订将使其成为一个空提交，因而并未接受。您可以重复您的命令，\n"
+"并带上 --allow-empty 选项；或者更好的处理方式是用 \"git reset HEAD^\"\n"
+"删除该提交。\n"
 
 #: builtin/commit.c:59
 msgid ""
