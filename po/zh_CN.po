@@ -1514,28 +1514,27 @@ msgstr ""
 "\t%s\n"
 "然后重试。\n"
 
-#  注意保持前导空格
 #: builtin/commit.c:796
 msgid "Please enter the commit message for your changes."
 msgstr "请为您的修改输入提交说明。"
 
+#  中文词间不需要空格
 #: builtin/commit.c:799
 msgid ""
 " Lines starting\n"
 "with '#' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
-" 以 '#' 开头\n"
-"的行将被忽略，而且空提交说明将会终止提交。\n"
+"以 '#' 开头\n"
+"的行将被忽略，而且空提交说明将会取消提交。\n"
 
-#  注意保持前导空格
 #: builtin/commit.c:804
 msgid ""
-" Lines starting\n"
+"Lines starting\n"
 "with '#' will be kept; you may remove them yourself if you want to.\n"
 "An empty message aborts the commit.\n"
 msgstr ""
-" 以 '#' 开头\n"
-"的行将被保留，您可以删除它们如果您想这样做。空提交说明将会终止提交。\n"
+"以 '#' 开头\n"
+"的行将被保留，您可以删除它们。空提交说明将会取消提交。\n"
 
 #  为保证在输出中对齐，注意调整句中空格！
 #: builtin/commit.c:816
