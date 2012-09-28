@@ -7,6 +7,7 @@
 #   - Riku <lu.riku AT gmail.com>
 #   - Zhuang Ya <zhuangya AT me.com>
 #   - Lian Cheng <rhythm.mail AT gmail.com>
+#   - Joey Jiao <joey.jiaojg AT gmail.com>
 #
 msgid ""
 msgstr ""
@@ -45,7 +46,7 @@ msgstr ""
 #: archive.c:10
 #, fuzzy
 msgid "git archive [options] <tree-ish> [<path>...]"
-msgstr "git apply [选项] [<补丁>...]"
+msgstr "git archive [选项] <树对象ID> [<路径>...]"
 
 #: archive.c:11
 #, fuzzy
@@ -55,27 +56,27 @@ msgstr "git archive：NACK %s"
 #: archive.c:12
 msgid ""
 "git archive --remote <repo> [--exec <cmd>] [options] <tree-ish> [<path>...]"
-msgstr ""
+msgstr "git archive --remote <远端仓库> [--exec <命令>] [选项] <树对象ID> [<路径>...]"
 
 #: archive.c:13
 msgid "git archive --remote <repo> [--exec <cmd>] --list"
-msgstr ""
+msgstr "git archive --remote <远端仓库> [--exec <命令>] --list"
 
 #: archive.c:322
 msgid "fmt"
-msgstr ""
+msgstr "格式"
 
 #: archive.c:322
 msgid "archive format"
-msgstr ""
+msgstr "打包格式"
 
 #: archive.c:323 builtin/log.c:1079
 msgid "prefix"
-msgstr ""
+msgstr "前缀"
 
 #: archive.c:324
 msgid "prepend prefix to each pathname in the archive"
-msgstr ""
+msgstr "在打包中的每条路径前添加前缀"
 
 #: archive.c:325 builtin/archive.c:91 builtin/blame.c:2332
 #: builtin/blame.c:2333 builtin/config.c:56 builtin/fast-export.c:642
@@ -87,40 +88,40 @@ msgstr "文件"
 
 #: archive.c:326 builtin/archive.c:92
 msgid "write the archive to this file"
-msgstr ""
+msgstr "打包文件名"
 
 #: archive.c:328
 #, fuzzy
 msgid "read .gitattributes in working directory"
-msgstr "%s：已经存在于工作区中"
+msgstr "读取工作区中.gitattributes文件"
 
 #: archive.c:329
 msgid "report archived files on stderr"
-msgstr ""
+msgstr "在标准错误上输出打包文件信息"
 
 #: archive.c:330
 msgid "store only"
-msgstr ""
+msgstr "仅存储"
 
 #: archive.c:331
 msgid "compress faster"
-msgstr ""
+msgstr "快速压缩"
 
 #: archive.c:339
 msgid "compress better"
-msgstr ""
+msgstr "最高压缩率"
 
 #: archive.c:342
 msgid "list supported archive formats"
-msgstr ""
+msgstr "显示支持的打包格式"
 
 #: archive.c:344 builtin/archive.c:93 builtin/clone.c:85
 msgid "repo"
-msgstr ""
+msgstr "远端仓库"
 
 #: archive.c:345 builtin/archive.c:94
 msgid "retrieve the archive from remote repository <repo>"
-msgstr ""
+msgstr "从远端仓库获取打包文件"
 
 #: archive.c:346 builtin/archive.c:95 builtin/notes.c:616
 #, fuzzy
@@ -129,7 +130,7 @@ msgstr "运行 $command"
 
 #: archive.c:347 builtin/archive.c:96
 msgid "path to the remote git-upload-archive command"
-msgstr ""
+msgstr "远端git-upload-archive命令路径"
 
 #: bundle.c:36
 #, c-format
@@ -1307,12 +1308,12 @@ msgstr "初始提交"
 #: wt-status.c:1011
 #, fuzzy
 msgid "Untracked files"
-msgstr "未跟踪的"
+msgstr "未跟踪的文件"
 
 #: wt-status.c:1013
 #, fuzzy
 msgid "Ignored files"
-msgstr "忽略的"
+msgstr "忽略的文件"
 
 #: wt-status.c:1015
 #, c-format
@@ -2081,19 +2082,19 @@ msgstr ""
 
 #: builtin/bisect--helper.c:17
 msgid "perform 'git bisect next'"
-msgstr ""
+msgstr "执行 'git bisect next'"
 
 #: builtin/bisect--helper.c:19
 msgid "update BISECT_HEAD instead of checking out the current commit"
-msgstr ""
+msgstr "更新BISECT_HEAD而不是检出当前提交"
 
 #: builtin/blame.c:25
 msgid "git blame [options] [rev-opts] [rev] [--] file"
-msgstr ""
+msgstr "git blame [选项] [版本选项] [版本] [--] 文件"
 
 #: builtin/blame.c:30 builtin/shortlog.c:15
 msgid "[rev-opts] are documented in git-rev-list(1)"
-msgstr ""
+msgstr "[版本选项] 信息在git-rev-list(1)中"
 
 #: builtin/blame.c:2316
 msgid "Show blame entries as we find them, incrementally"
